@@ -12,7 +12,7 @@ function loadGif(marketRate,targetPrice) {
   
   if(marketRate > upC)
   {
-  	gifHolder.src = "https://i.imgur.com/gzj9Ex1.gif";
+    gifHolder.src = "https://i.imgur.com/gzj9Ex1.gif";
   }
   if((marketRate <= upC)&&(marketRate >= upB))
   {
@@ -67,7 +67,7 @@ document.getElementById("price_slider").addEventListener("input", e => {
              
 
 document.getElementById("check_market_button").addEventListener("click", e => {
-	checkMarket();
+  checkMarket();
 })
 
 checkMarket()
