@@ -1,5 +1,5 @@
 # AMPLNFT1
-Interactive AMPL NFT
+Ampleforth NFT Contest - Interactive NFT and gifs.
 
 Files for use at https://beyondnft.io/create/playground 
 
