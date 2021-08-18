@@ -48,13 +48,13 @@ function checkMarket() {
     const json = await response.json()
     targetPrice = json.lastRebaseInfo.targetRateAtRebase;
 
-     fetch("https://api.coingecko.com/api/v3/simple/price?ids=ampleforth&vs_currencies=usd").then(async response => {
+    fetch("https://api.coingecko.com/api/v3/simple/price?ids=ampleforth&vs_currencies=usd").then(async response => {
        const json = await response.json()
        document.getElementById("price_slider_output").value = parseFloat(json.ampleforth.usd).toFixed(2)
        document.getElementById("price_slider").value = (parseFloat(json.ampleforth.usd)* 100 - 100).toFixed(2);
 
        loadGif(json.ampleforth.usd,targetPrice)
-     })
+    })
   })
  
 }
