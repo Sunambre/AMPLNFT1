@@ -20,7 +20,7 @@ function loadGif(marketRate,targetPrice) {
   }
   if((marketRate < upB)&&(marketRate >= upA))
   {
-    gifHolder.src = "https://i.imgur.com/GbK3uJ4.gifv";
+    gifHolder.src = "https://i.imgur.com/PFPhQ2s.gif";
   }
   if((marketRate < upA)&&(marketRate >= downA))
   {
