@@ -1,1 +1,21 @@
-
+ body {
+    margin: 0;
+    padding: 0;
+    text-align:center;
+    background: black;
+  }
+  .header_logo {
+    font-family: 'Coromont Garamond';
+    text-transform: none;
+    font-size: 100vmin;
+  }
+  .header .slider {
+    width: 384px
+  }
+  .header a {
+    text-decoration: none;
+  }
+  .header output {
+    color: white;
+    font-size: 1.75rem;
+  }
